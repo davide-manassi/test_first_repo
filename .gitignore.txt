@@ -1,1 +1,1 @@
-*.py
+File txt aggiornato
