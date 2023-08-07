@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 # --------------------------------------------
 
 
-def calls_chetariffa_3(lista_db):
+def calls_chetariffa_2(lista_db):
     db_tot = pd.DataFrame()
     for nome_db in lista_db:
         db = pd.read_csv(nome_db + ".csv", sep=';', low_memory=False, usecols=["EsitoTelefonico", "CallStarDate", "Id",
